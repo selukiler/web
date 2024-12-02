@@ -1,0 +1,667 @@
+/*AJUSTES GENERALES TODAS LAS PAGINAS*/
+
+/*Ajuste de pagin al completo. Quitamos subrayado enlaces.Ajustamos margenes.*/
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  flex-wrap: wrap;
+}
+/*Asignamos fuente al texto y un color de fondo
+Tambien ajustamos la imagen de fondo*/
+
+body
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: url(../imagenes/piramides.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed ;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+header
+{
+  height: 200px;
+}
+main
+{
+  height: auto;
+}
+
+
+/*En la barra de navegacion que hemos asignado con un class navbar ajustamos tamaño y margenes. Quitamos los subraytados de los enlaces a siguientes paginas.
+Ajustamos el rango hasta donde se puede xpandir la lista
+Posicionamos lista dando valores de izq y top*/
+.navbar
+{
+  list-style: none;
+  padding: 10px;
+  background: fixed;
+  margin: 33px;
+  justify-content: center;
+  justify-items: center;
+  position: relative; 
+  top: 10px;
+}
+/*Letras barra de navegacion*/
+.navbar li a
+{
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  display: block;
+}
+/*Lista a lo horizontal no vertical*/
+.navbar li
+{
+  display: inline-block;
+  text-align: center;
+}
+/*Asignar interaccion con los enlaces cambiando color de fondo*/
+.navbar li a:hover{
+  background: rgb(112, 112, 112);
+}
+/*Retoque del logo*/
+.navbar img
+{
+  height: 160px;
+  width: auto;
+  float: left;
+  position: relative; 
+  top: -30px;
+  left: 150px;
+  border-radius: 25px;
+}
+/*Click-logo*/
+.navbar img:hover
+{
+  transform:scale(1.2);
+}
+/*Texto arriba*/
+.prin
+{
+  background-color:fixed;
+  color: rgb(0, 0, 0);
+ /* width: 100%;
+  /*max-width: 1000px;*/
+  margin-top: 50px;
+  justify-content: center;
+  justify-items: center;
+  position: relative; 
+ 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/*Logos*/
+.pie
+{
+  position: relative;
+  top: 900px;
+  left: 750px;
+}
+
+/*Ajustes generales de enlaces*/
+
+.tabla
+{
+  background: linear-gradient(to right, #ffffff, #feb47b);  
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+table
+{
+  border-spacing: 70px 0px;
+  margin-top: 30px;
+}
+
+.ig
+{
+  width: 30px;
+  height:auto;
+  border-radius: 5px;
+}
+.face
+{
+  width: 35px;
+  height:auto;
+  border-radius: 5px;
+}
+.x
+{
+  width: 30px;
+  height:auto;
+  border-radius: 5px;
+}
+.git
+{
+  width: 30px;
+  height:auto;
+  border-radius: 5px;
+}
+
+/*texto design by*/
+.tabla .desg
+{
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: -30px;
+}
+
+/*login posicion*/
+.login
+{
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  text-align: center;
+  background: linear-gradient(to right, #ffffff, #feb47b);
+  border: 3px solid;
+  padding: 20px;
+}
+/*Construcciones distintas partes login*/
+.sesion
+{
+ font-size: x-large;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: bold;
+}
+.nom
+{
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+.pass
+{
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*MENU PRINCIPAL*/
+
+
+/*Ajuste para que el footer se mantenga abajo */
+.com 
+{
+  display: grid;
+  min-height: 115dvh;
+  grid-template-rows: auto 1fr auto;
+  
+}
+
+/*posicion video intorduccion*/
+.videillo
+{
+  position: absolute;
+  top:600px;
+  left: 630px;
+  border-radius: 5px;
+}
+
+/*texto logo*/
+.des
+{
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  top: 390px;
+  left: 450px;
+  background-color: blanchedalmond;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/*Ajustes para el primer texto introductorio*/
+.text
+{
+  position: absolute;
+  top: 250px;
+  left: 575px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  text-align: center;
+  font-weight: bold;
+  font-style: oblique;
+  background-color:rgb(226, 226, 226);
+  border: 3px solid;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SOBRE NOSOTROS*/
+
+
+/*Ajuste para que el footer se mantenga abajo */
+.com1
+{
+  display: grid;
+  min-height: 180dvh;
+  grid-template-rows: auto 2fr auto;
+} 
+
+/*texto empresa*/
+.marc
+{
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  right: 100px;
+  background-color: blanchedalmond;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+/*Parrafo grande*/
+.des1
+{
+    background-color: blanchedalmond;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 20px;
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    right: 100px;
+   
+}
+
+.des1 .tit
+{
+  font-size: xx-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.des1 .tit2
+{
+  font-size: xx-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+
+/*Distintos pequeños textos*/
+.sel
+{
+  margin-top: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-size: large;
+}
+.des1 img
+{
+    height: 220px;
+    width: auto;
+    float: left;
+    margin-right: 35px;
+    margin-left: 25px;
+    margin-top: 45px;
+    border-radius: 90px;
+    
+}
+/*Segunda foto*/
+.des1 .tela2
+{
+    height: 220px;
+    width: auto;
+    float: right;
+    margin-right: 40px;
+    margin-top: 70px;
+    border-radius: 90px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*PAGINA DE PRODUCTOS*/
+
+
+/*Conteneddor que engloba todo*/
+.contenedor
+{
+  width: 100%;
+  height: 1000px;
+  position: relative;
+}
+/*Primera foto camiseta*/
+.camiseta
+{
+  padding: 60px;
+  width: 369px;
+  position: absolute;
+  left: 100px;
+  top: 448px;
+}
+
+.camiseton
+{
+  width: 250px;
+  height: auto;
+  border-radius: 3px;
+}
+
+.txtcami
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  background-color: #222222;
+  text-align: center;
+  
+}
+
+/*Segunda foto pantalones*/
+
+.pantalon
+{
+  padding: 60px;
+  width: 369px;
+  position: absolute;
+  left: 500px;
+  top: 387px;
+}
+
+.pantalon1
+{
+  width: 250px;
+  height: auto;
+  border-radius: 3px;
+}
+
+.txtpant
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  background-color: #222222;
+  text-align: center;
+  
+}
+
+
+/*Tercera foto sudadera*/
+
+.sudadera
+{
+  padding: 60px;
+  width: 420px;
+  position: absolute;
+  left: 900px;
+  top: 437px;
+}
+
+.sudaderita
+{
+  width: 300px;
+  height: auto;
+  border-radius: 3px;
+}
+
+.txtsud
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  background-color: #222222;
+  text-align: center;
+  
+}
+
+/*Cuarta foto gorra*/
+
+.gorro
+{
+  padding: 60px;
+  width: 420px;
+  position: absolute;
+  left: 1320px;
+  top: 460px;
+}
+
+.gorrita
+{
+  width: 300px;
+  height: auto;
+  border-radius: 40px;
+}
+
+.txtgor
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  background-color: #222222;
+  text-align: center;
+  
+}
+.txtimg
+{
+  text-align: center;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  top: 360px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: blanchedalmond;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*PAGINA OUTLET*/
+
+/*Contenedor que engloba todo */
+.contenedor2
+{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+  justify-items: center;
+}
+
+.contenedor2 ul
+{
+  list-style: none;
+}
+
+.contenedor2 li
+{
+  float: left;
+}
+/*Primera foto camiseta*/
+.zapas
+{
+  padding: 50px;
+  width: 369px;
+}
+
+.zapatillas
+{
+  width: 250px;
+  height: auto;
+  border-radius: 3px;
+}
+.zapab
+{
+  cursor: pointer;
+}
+
+
+/*Segunda foto camiseta */
+.juan
+{
+  padding: 50px;
+  width: 369px;
+}
+
+.juanito
+{
+  width: 250px;
+  height: auto;
+  border-radius: 3px;
+}
+.juanillo
+{
+  cursor: pointer;
+}
+
+/*Tercera imagen camiseta*/
+.dios
+{
+  padding: 50px;
+  width: 369px;
+}
+
+.rey
+{
+  width: 250px;
+  height: auto;
+  border-radius: 3px;
+}
+.god
+{
+  cursor: pointer;
+}
+
+
+/*Cuarta foto gorrra hamster*/
+.gorra
+{
+  padding: 50px;
+  width: 369px;
+}
+
+.gorr
+{
+  width: 250px;
+  height: auto;
+  border-radius: 3px;
+}
+.gor
+{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/*Pagina Mapa Google*/
+
+
+.com2
+{
+  display: grid;
+  min-height: 150dvh;
+  grid-template-rows: auto 1fr auto;
+}
+
+.mapa
+{
+  position: absolute;
+      top: 55%; 
+      left: 50%; 
+      transform: translate(-50%, -50%);
+}
+
+.lugar
+{
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  top: 350px;
+  left: 100px;
+  right: 100px;
+  background-color: blanchedalmond;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.ytube
+{
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: blanchedalmond;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+      top: 85%; 
+      left: 50%; 
+      transform: translate(-50%, -50%);
+}
+
+
+

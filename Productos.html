@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Horus</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="icon" href="./imagenes/horus.ico">
+        <script src="./js/botones.js"></script>
+    </head>
+    <body>
+        <div class="com"> 
+                <div class="prin">
+                    <h1>Productos</h1>
+                </div>
+            <header>
+                <nav class="navbar">
+                    <img src="./imagenes/horus.jpg" alt="logos">
+                    <ul>
+                        <li><a href="index.html">Menú Principal</a></li>
+                        <li><a href="Sobre Nosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="Productos.html">Productos</a></li>
+                        <li><a href="Ofertas.html">Ofertas</a></li>
+                        <li><a href="Location.html">Donde estamos</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <form class="login">
+                    <p class="sesion">Iniciar Sesion</p>
+                    <br>
+                    <p class="nom">Nombre:</p>
+                    <input type="text" size="15">
+                    <p class="pass">Contraseña:</p>
+                    <input type="password" size="15">
+                    <br>
+                    <br>
+                    <input type="submit" value="Listo">
+                    <input type="reset" value="Borrar">
+                </form>
+
+                <div class="contenedor">
+                    <div class="camiseta">
+                        <img class="camiseton" src="./imagenes/camiseta.png" alt="camiseta">
+                        <button class="txtcami" onclick="mostrarMensaje1()">Descripción del producto</button>
+                    </div>
+
+                    <div class="pantalon">
+                        <img class="pantalon1" src="./imagenes/pantalon.png" alt="pantalon">
+                        <button class="txtpant" onclick="mostrarMensaje2()">Descripción del producto</button>
+                    </div>
+
+                    <div class="sudadera">
+                        <img class="sudaderita" src="./imagenes/sudadera.png" alt="sudadera">
+                        <button class="txtsud" onclick="mostrarMensaje3()">Descripción del producto</button>
+                    </div>
+
+                    <div class="gorro">
+                        <img class="gorrita" src="./imagenes/gorro.png" alt="Gorro">
+                        <button class="txtgor" onclick="mostrarMensaje4()">Descripción del producto</button>
+                    </div>
+
+                </div>
+                
+                <div class="txtimg">
+
+                    <p>No se trata solo de vestirse, sino de expresar tu estilo único. Cada prenda en nuestra tienda ha sido diseñada con pasión,
+                     innovación y una visión clara: ofrecerte algo que no solo te quede bien, sino que te haga sentir auténtico y especial.<br><br>
+                     ¿Listo para ser parte de la tendencia que define el futuro de la moda? <br><br>¡Haz tu elección ahora y lleva tu estilo al siguiente nivel!
+                    </p>
+                    
+                </div>
+            </main>
+            <footer clase="pie">
+                <div class="tabla">
+                    <table>
+                        <tbody class="td">
+                            <td><a href="https://www.instagram.com/joseeluiis_/profilecard/?igsh=MXV5aGlwYXEydWNlag%3D%3D" target="_blank"><img class="ig" src="./imagenes/ig.jpg" alt="icono Instagram"></a></td>
+                            <td><a href="https://www.facebook.com/?locale=es_ES" target="_blank"><img class="face" src="./imagenes/face.jpg" alt="Icono facebook"></a></td>
+                            <td><a href="https://x.com/?lang=es" target="_blank"><img class="x" src="./imagenes/x.png" alt="Icono X"></a></td>
+                            <td><a href="https://github.com/" target="_blank"><img class="git" src="./imagenes/git.jpg" alt="Icono Github"></a></td>
+                        </tbody>
+                    </table>
+                    <h2 class="desg">Design by: Jose Luis Fernández Cabeza</h2>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
